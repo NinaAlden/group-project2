@@ -1,0 +1,12 @@
+body {
+    background-color: #22223B;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    min-height: 100vh;
+    max-width: 80%;
+}
