@@ -2,7 +2,6 @@ footer {
     min-height: 140px;
     width: 80%;
     margin-top: 10px;
-    background-color: #22223B;
     border-top: 1px solid #4A4E69;
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +18,8 @@ footer {
     position: relative;
     right: 20px;
     top: 10px;
+    border-radius: 8%;
+    box-shadow: 2px 2px 4px #121220;
     &:hover {
         width: 33%;
     }

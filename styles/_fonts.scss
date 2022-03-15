@@ -1,7 +1,42 @@
+.fas {
+    color: #22223B;
+    &:hover {
+        color: #B9CEDA;
+    }
+}
 .fab {
     font-size: 22px;
     color: #B9CEDA;
     &:hover {
         color: #9D0208;
     }
+}
+.nav-appearance {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #B9CEDA;
+    &:hover {
+        color: #9D0208;
+    }
+}
+.head-link1 {
+    padding-right: 15px;
+}
+.input-area {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    letter-spacing: 2.8px;
+    color: #B9CEDA;
 }
