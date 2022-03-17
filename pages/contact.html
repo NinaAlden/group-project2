@@ -7,22 +7,63 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;0,700;1,200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/17eee3e3ed.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="normalize/normalize.css">
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/contact.css">
     <title>Contact</title>
 </head>
 <body>
     <header>
-
+        <div class="logo-container">
+            <ul class="nav">
+                <li><a href="index.html">
+                    <img src="/images/end-logo.png" alt="Logo" class="header-logo">
+                </a></li>
+            </ul>
+        </div>
+        <div class="header-nav-container">
+            <nav>
+                <ul class="nav">
+                    <li><a class="nav-appearance head-link1" href="/pages/about.html">About Us</a></li>
+                    <li><a class="nav-appearance" href="/pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <form class="form" action="">
+                <input class="input-area" type="search"
+                placeholder="&nbsp Search For A Genre" required>
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
     </header>
     <main>
-
+        <form class="form-section">
+            <h2>Have you got any movie tips?</h2>
+            <h3 class="form-text">Please send the information about your favourite movie and we might publish it!</h3>
+            <div class="form-div">
+                <label for="name" class="label">Movie Title</label>
+                <input type="text" name="name" id="name" class="input" required/>
+                <label for="director" class="label">Director</label>
+                <input type="text" name="name" id="director" class="input" required/>
+                <label for="writer" class="label">Writer</label>
+                <input type="text" name="name" id="writer" class="input" required/>
+                <label for="select" class="label">Category</label>
+                <select name="name" class="select" id="select" required>
+                    <option value="0">Action</option>
+                    <option value="1">Comedy</option>
+                    <option value="2">Drama</option>
+                    <option value="3">Romance</option>
+                    <option value="4">Thriller</option>
+                </select>
+                <label class="label">Review</label>
+                <textarea name="message" cols="31" rows="10" class="textarea" minlength="20" required></textarea>
+                <button type="submit" class="button">Send</button>
+            </div>
+        </form>
     </main>
     <footer>
         <div class="logo-container">
             <ul class="nav">
                 <li><a href="index.html">
-                    <img src="images/end-logo.png" alt="Logo" class="end-logo">
+                    <img src="/images/end-logo.png" alt="Logo" class="end-logo">
                 </a></li>
             </ul>
         </div>
@@ -30,7 +71,7 @@
             <ul class="nav">
                 <li><a class="nav-appearance" href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a class="nav-appearance" href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a class="nav-appearance" href="#"> <i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="nav-appearance" href="#"><i class="fab fa-linkedin-in"></i></a></li>
                 <li><a class="nav-appearance" href="#"><i class="fab fa-youtube"></i></a></li>
                 <li><a class="nav-appearance" href="#"><i class="fab fa-pinterest"></i></a></li>
             </ul>
