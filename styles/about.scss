@@ -2,3 +2,108 @@
 @import 'header';
 @import 'footer';
 @import 'main';
+
+.container-about {
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1300px;
+   width: 100%;
+   min-height: 500px;
+   background-color: #9D0208;
+
+
+}
+
+.text-about {  
+   font-family: 'Josefin Sans', sans-serif;
+   /*max-width: 1150px;
+   width: 100%;
+   min-height: 430px;*/
+   display: flex;
+   flex-direction: column;
+   color: #B9CEDA;
+
+
+}
+
+.title-about {
+    text-align: center;
+}
+
+.p1 {
+    line-height: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.p2 {
+    line-height: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.container-länk {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    /*background-color: aqua;*/
+    max-width: 1300px;
+   width: 100%;
+   min-height: 180px;
+}
+
+.box-tips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #B9CEDA;
+    background-color: #9D0208;
+    max-width: 400px;
+    width: 100%;
+    min-height: 170px;
+    border-radius: 5px;
+
+}
+
+.box-ge-tips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #B9CEDA;
+    background-color: #9D0208;
+    max-width: 400px;
+    width: 100%;
+    min-height: 170px;
+    border-radius: 5px;
+}
+
+.btn-ge {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #B9CEDA;;
+    font-size: large;
+    width: 110px;
+    height: 62px;
+    border-radius: 5px;
+    
+}
+
+.btn-ge:hover {
+    background-color: #4A4E69;
+}
+
+.btn-tips {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #B9CEDA;;
+    font-size: large;
+    width: 110px;
+    height: 62px;
+    border-radius: 5px;
+    
+}
+
+.btn-tips:hover {
+    background-color: #4A4E69;
+}
