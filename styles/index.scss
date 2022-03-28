@@ -3,11 +3,17 @@
 @import 'footer';
 @import 'main';
 
+main {
+    min-height: 100%;
+    max-width: 80%;
+}
+
 .cat-container
 {
     width: 1000px;
     height: 400px;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat( 4, 1fr);
