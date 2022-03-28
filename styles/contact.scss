@@ -2,3 +2,73 @@
 @import 'header';
 @import 'footer';
 @import 'main';
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  color: #B9CEDA;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.form-text {
+  max-width: 410px;
+  width: 100%;
+}
+
+.input, .textarea {
+  width: 100%;
+  max-width: 245px;
+  margin-bottom: 15px;
+  border: none;
+  color: #22223B;
+  font-size: 18px;
+}
+
+.input {
+  height: 25px;
+}
+
+.select {
+  height: 28px;
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 15px;
+  border: none;
+  color: #22223B;
+  font-size: 18px;
+}
+
+.input:hover, .textarea:hover, .select:hover {
+  background-color: #B9CEDA;
+}
+
+.button {
+  width: 100%;
+  max-width: 80px;
+  background-color: #B9CEDA;
+  color: #22223B;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  border: none;
+  align-items: center;
+  align-self: center;
+  
+  &:hover {
+    color: #9D0208;
+  }
+}

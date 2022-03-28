@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;0,700;1,200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/17eee3e3ed.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/styles/normalize.css">
-    <link rel="stylesheet" href="/styles/contact.css">
+    <link rel="stylesheet" href="normalize/normalize.css">
+    <link rel="stylesheet" href="/styles/_movie.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-    <title>Contact</title>
+    <title>Movie</title>
 </head>
 <body>
     <header>
@@ -36,29 +36,20 @@
         </div>
     </header>
     <main>
-        <form class="form-section">
-            <h2>Do you have any movie tips?</h2>
-            <h3 class="form-text">Please send the information about your favorite movie and we might publish it!</h3>
-            <div class="form-div">
-                <label for="name" class="label">Movie Title</label>
-                <input type="text" name="name" id="name" class="input" required/>
-                <label for="director" class="label">Director</label>
-                <input type="text" name="name" id="director" class="input" required/>
-                <label for="writer" class="label">Writer</label>
-                <input type="text" name="name" id="writer" class="input" required/>
-                <label for="select" class="label">Category</label>
-                <select name="name" class="select" id="select" required>
-                    <option value="0">Action</option>
-                    <option value="1">Comedy</option>
-                    <option value="2">Drama</option>
-                    <option value="3">Romance</option>
-                    <option value="4">Thriller</option>
-                </select>
-                <label class="label">Review</label>
-                <textarea name="message" cols="31" rows="10" class="textarea" minlength="20" required></textarea>
-                <button type="submit" class="button">Send</button>
+        <div class="movie-section">
+            <div class="movie-div">
+                <div class="movie-card">
+                    <img src="/images/clapperboard-gcbc5a1d7a_1280.png" alt="" class="movie-image">
+                    <h2 class="movie-section-title">About Time</h2>
+                    <h3 class="movie-section-name">Director: Richard Curtis</h3>
+                    <h3 class="movie-section-name">Writer: Richard Curtis</h3>
+                    <p class="movie-section-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur culpa nam quae, incidunt hic 
+                      architecto quaerat aliquam nulla officiis, quisquam velit ex id repudiandae deserunt numquam ipsam esse neque iusto.
+                    </p>
+                </div>
             </div>
-        </form>
+            <button class="back-button">Go back</button>
+        </div>
     </main>
     <footer>
         <div class="logo-container">
