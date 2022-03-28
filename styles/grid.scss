@@ -1,0 +1,306 @@
+@import 'fonts';
+@import 'header';
+@import 'footer';
+@import 'main'; 
+
+.movie-container
+{
+    width: 1000px;
+    height: 800px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat( 6, 1fr);
+    grid-gap: 1em;
+    border-style: groove;
+    border-color: #9D0208;
+    border-width: 10px;
+}
+
+.cat-title
+{
+    grid-column: 1 / -1 ;
+    grid-row: 1 / span 1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xxx-large;
+    text-align: center;
+    color: #B9CEDA;
+}
+
+.cat-title:hover
+{
+    color:#4A4E69;
+    
+}
+
+.movie-btn
+{
+    width: 100%;
+    height: 100%;
+    background: none;
+	color: inherit;
+	border-style: outset;
+    border-color: #9D0208;
+}
+
+.movie-btn:hover
+{
+    cursor: pointer;
+    border-style: outset;
+    border-width: 5px;
+}
+
+.movie-one
+{
+    grid-column: 3/ span 2 ;
+    grid-row: 4 / span 2;
+}
+
+.movie-two
+{
+    grid-column: 6/ span 2 ;
+    grid-row: 4 / span 2;
+}
+
+.movie-three
+{
+    grid-column: 9/ span 2 ;
+    grid-row: 4 / span 2;
+}
+
+.movie-four
+{
+    grid-column: 3/ span 2 ;
+    grid-row: 2 / span 2;
+}
+
+.movie-five
+{
+    grid-column: 6/ span 2 ;
+    grid-row: 2 / span 2;
+}
+
+.movie-six
+{
+    grid-column: 9/ span 2 ;
+    grid-row: 2 / span 2;
+}
+
+
+.cat-btn
+{
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    color: #B9CEDA;
+    background-color: #22223B;
+    border-style: groove;
+    border-color: #9D0208;
+    border-width: 5px;
+}
+
+.cat-btn:hover
+{
+    cursor: pointer;
+    border-style: none;
+    animation: neon 1s ease-in-out infinite alternate;
+}
+
+@keyframes neon
+{
+    from 
+    {
+      text-shadow: 0 0 10px #9D0208, 0 0 20px #9D0208, 0 0 30px #9D0208, 0 0 40px #9D0208, 0 0 50px #9D0208, 0 0 60px #9D0208, 0 0 70px #4A4E69;
+    }
+    
+    to 
+    {
+      text-shadow: 0 0 20px #9D0208, 0 0 30px #9D0208, 0 0 40px #9D0208, 0 0 50px #9D0208, 0 0 60px #9D0208, 0 0 70px #9D0208, 0 0 80px #bb3c40;
+    }
+}
+
+.cat-btn-one
+{
+    grid-column: 2 / span 2;
+    grid-row: 6;
+}
+
+.cat-btn-two
+{
+    grid-column: 4 / span 2;
+    grid-row: 6;
+}
+
+.cat-btn-three
+{
+    grid-column: 6 / span 2;
+    grid-row: 6;
+}
+
+.cat-btn-four
+{
+    grid-column: 8 / span 2;
+    grid-row: 6;
+}
+
+.cat-btn-five
+{
+    grid-column: 10 / span 2;
+    grid-row: 6;
+}
+
+.movie-btn
+{
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.a-m-a
+{
+    background-image: url(/images/grid/tomb-raider.PNG);
+}
+
+.a-m-b 
+{
+    background-image: url(/images/grid/fast.PNG);
+}
+
+.a-m-c 
+{
+    background-image: url(/images/grid/matrix.PNG);
+}
+
+.a-m-d 
+{
+    background-image: url(/images/grid/2012.PNG);
+}
+
+.a-m-e 
+{
+    background-image: url(/images/grid/salt.PNG);
+}
+
+.a-m-f 
+{
+    background-image: url(/images/grid/hit.PNG);
+}
+
+.c-m-a
+{
+    background-image: url(/images/grid/zoo.PNG);
+}
+
+.c-m-b 
+{
+    background-image: url(/images/grid/dead.PNG);
+}
+
+.c-m-c 
+{
+    background-image: url(/images/grid/pix.PNG);
+}
+
+.c-m-d 
+{
+    background-image: url(/images/grid/flub.PNG);
+}
+
+.c-m-e 
+{
+    background-image: url(/images/grid/hot.PNG);
+}
+
+.c-m-f 
+{
+    background-image: url(/images/grid/ted.PNG);
+}
+
+.d-m-a
+{
+    background-image: url(/images/grid/pojk.PNG);
+}
+
+.d-m-b 
+{
+    background-image: url(/images/grid/star.PNG);
+}
+
+.d-m-c 
+{
+    background-image: url(/images/grid/me.PNG);
+}
+
+.d-m-d 
+{
+    background-image: url(/images/grid/black.PNG);
+}
+
+.d-m-e 
+{
+    background-image: url(/images/grid/great.PNG);
+}
+
+.d-m-f 
+{
+    background-image: url(/images/grid/forest.PNG);
+}
+
+.t-m-a
+{
+    background-image: url(/images/grid/esc.PNG);
+}
+
+.t-m-b 
+{
+    background-image: url(/images/grid/hush.PNG);
+}
+
+.t-m-c 
+{
+    background-image: url(/images/grid/van.PNG);
+}
+
+.t-m-d 
+{
+    background-image: url(/images/grid/z.PNG);
+}
+
+.t-m-e 
+{
+    background-image: url(/images/grid/grudge.PNG);
+}
+
+.t-m-f 
+{
+    background-image: url(/images/grid/ins.PNG);
+}
+
+.r-m-a
+{
+    background-image: url(/images/grid/tit.PNG);
+}
+
+.r-m-b 
+{
+    background-image: url(/images/grid/age.PNG);
+}
+
+.r-m-c 
+{
+    background-image: url(/images/grid/les.PNG);
+}
+
+.r-m-d 
+{
+    background-image: url(/images/grid/imp.PNG);
+}
+
+.r-m-e 
+{
+    background-image: url(/images/grid/about.PNG);
+}
+
+.r-m-f 
+{
+    background-image: url(/images/grid/dog.PNG);
+}
